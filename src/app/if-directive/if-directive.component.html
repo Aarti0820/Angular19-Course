@@ -1,0 +1,21 @@
+
+<h1>We use if-directive</h1>
+@if(isEmail && isPass){
+<div>
+    <p>
+        Welcome, Admin
+    </p>
+</div>
+}
+@else if (isEmail &&! isPass) {
+<div>
+    <p>
+        please Register
+    </p>
+</div>
+}
+@else { 
+
+    <p>something went wrong!</p>
+
+}

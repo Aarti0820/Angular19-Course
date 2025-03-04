@@ -1,0 +1,11 @@
+<div>
+    <h1>ng-style</h1>
+
+
+    <p [ngStyle] = "{'color' : trafficStatus === 'stop' ? 'red' : trafficStatus === 'ready' ? 'orange' : trafficStatus === 'go'}">
+
+    Traffic light Status : {{trafficStatus}}   </p>
+    <button (click) = "settrafficStatus('stop')">Stop</button>
+    <button (click) = "settrafficStatus('ready')">Ready</button>
+    <button (click) = "settrafficStatus('go')">Go</button>
+</div>

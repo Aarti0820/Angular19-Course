@@ -1,0 +1,17 @@
+.active-button{
+    background-color: rgb(41, 177, 64);
+    color: antiquewhite;
+    padding: 10 ,20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.inactive-button{
+    background-color: rgb(235, 15, 15);
+    color: rgb(63, 41, 13);
+    padding: 10 ,20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

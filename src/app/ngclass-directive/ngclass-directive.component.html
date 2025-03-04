@@ -1,0 +1,10 @@
+
+<div>
+    <h1>ngclass Directive</h1>
+    <button [ngClass] = "{'active-button' : isActive , 'inactive-button' : !isActive}"  (click) = "toggleState()"
+    
+    >{{isActive ? 'Active' : 'InActive'}} 
+
+       
+    </button>
+</div>

@@ -1,0 +1,28 @@
+<div>
+    <h1>For Directives</h1>
+
+  @for (items of courses; let i = $index; let even  = $even; let odd  = $odd ; let first = $first;let last = $last; track $index) {
+<h2>
+  {{i}} {{items.coursename}}
+
+  @if(even){
+    <p>even</p>
+     }
+     @if(odd){
+        <p>odd</p>
+         }
+         @if(first){
+            <p>first</p>
+             }
+             @if(last){
+                <p>last</p>
+                 }
+                
+</h2>
+
+  }
+  @empty {
+    <p>No Data</p>
+ }
+
+</div>

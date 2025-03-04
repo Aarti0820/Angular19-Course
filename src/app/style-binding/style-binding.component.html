@@ -1,0 +1,15 @@
+<div [style.backgroundColor] = "trafficStatus === 'stop' ? 'red' : trafficStatus === 'ready' ? 'yellow' : trafficStatus"
+[style.width]="'150px'"
+[style.height]="'150px'"
+[style.borderRadius]="'50px'"
+[style.margine]="'20px'">
+    <h1>Style Binding</h1>
+</div>
+
+
+    <button (click) = "trafficStatus = 'stop'">STOP</button>
+    <button (click) = "trafficStatus = 'ready'">READY</button>
+    <button (click) = "trafficStatus = 'go'">GO</button>
+
+
+

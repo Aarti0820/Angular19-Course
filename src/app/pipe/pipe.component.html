@@ -1,0 +1,16 @@
+<h1>Built-in pipes</h1>
+<p><strong>Date:</strong>{{today | date : 'fullDate'}}</p>
+
+<p><b>Price: </b>{{price | currency : 'INR' : 'symbol'}}</p>
+
+<p><B>percentage: </B> {{percentage | percent}} </p>
+
+<p><b>message: </b> {{message | uppercase}}</p>
+
+<p><b>message: </b> {{message | lowercase}}</p>
+
+<p><b>slice: </b>{{message | slice: 0:5 }}</p>
+
+<p><b>user:</b> {{user | json}}</p>
+
+<p>{{items | slice: 0:5 | json | uppercase }}</p>
